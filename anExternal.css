@@ -21,7 +21,7 @@ img {
     height: 50px;
     margin: 5px;
 }
-image 1{
+image1{
     margin: left:20px;
     margin: right:20px;
 }
@@ -40,13 +40,13 @@ section {
     border: 1px dotted rgb(228, 228, 235);
   }
 .left {
-    float: left;
-    background: pink;
-}
-  
-.right {
-    float: right;
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px;
+    width: 100px;
+    height: 50px;
     background: cyan;
+    float:left;
 }
 hr {
     border:dotted;
