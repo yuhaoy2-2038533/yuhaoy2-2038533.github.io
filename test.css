@@ -1,0 +1,120 @@
+#Header{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 8px black;
+    text-align: center;
+    transform: rotate(-5deg);
+}
+
+#LeftNav{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 8px black;
+    float:left;
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+#Content{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 8px black;
+    text-align: center;
+    padding: 15px;
+    line-height: 70px;
+}
+#Header {
+    position: relative;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #060c21;
+}
+
+#Header::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: -1;
+}
+
+#Header::after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    z-index: -2;
+    filter: blur(40px);
+}
+#Header::before,
+#Header::after {
+    background: linear-gradient(235deg, #89ff00, #060c21, #00bcd4);
+}
+
+#Footer{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 8px black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+ul{
+    list-style-type:none;
+    padding-left: 0px;
+}
+
+h1{
+    font-size: 60px;
+    font-family: "Passion One";
+    color: #FFBC00;
+    font-weight: bold;
+}
+
+p{
+    color: white;
+    font-family: "Arial";
+}
+
+h3{
+    color: #FFBC00;
+    font-size: 40px;
+    font-family: "Passion One";
+    margin-bottom: 0px;
+}
+
+div{
+    background-color: #8E41D5;
+}
+
+body{
+    background-image: url('dark_wood.png');
+}
+
+a{
+    color:white;
+    font-weight: bold;
+    font-size: 24px;
+    border-color: aliceblue;
+}
+
+a:hover{
+    background-color: #FFBC00;
+}
